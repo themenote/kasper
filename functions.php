@@ -1,17 +1,5 @@
 <?php
 define( 'THEME_VER', '0.1' );
-//这儿是主题在线更新代码，如果您不想享受在线更新功能可以删除
-require_once( 'inc/class-wp-license-manager-client.php' );
-if ( is_admin() ) {    
-    $license_manager = new Wp_License_Manager_Client(
-        'kasper简洁博客主题',
-        'kasper',
-        '这是更新说明',
-        'https://loobo.me/api/license-manager/v1',
-		'theme'
-    );
-}
-//在线更新 end
 /**
 功能说明: 加载css&js
 更新时间：2017-3-15
