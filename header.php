@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title><?php wp_title( '-', true, 'right' ); ?></title>
-<meta name="description" content="Alessandro Tesoro, web developer &amp; designer from London, UK.">
+<meta name="description" content="主题笔记自适应简介博客">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php wp_head(); ?>
 </head>
